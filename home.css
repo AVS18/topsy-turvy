@@ -1,0 +1,134 @@
+body{
+    background-color: black;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: white;
+    font-size: larger;
+}
+.heading{
+    font-family: 'Raleway', sans-serif;
+    font-size: 3em;
+}
+.homeImage{
+    margin-top: 5px;
+}
+.commonBtn{
+    width: 300px;
+    height: fit-content;
+    text-align: center;
+    border: white solid 3px;
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+}
+.commonBtn:hover{
+    background-color: white;
+    color: black;
+}
+.main{
+    background-image: url('images/rest/image.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 700px;
+}
+.main-padding{
+    padding: 10%;
+}
+@media screen and (max-width: 700px){
+    .addpadding{
+        padding-top: 10%;
+    }
+    .main{
+        height: 900px;
+    }
+
+}
+nav{
+    width: 100%;
+}
+nav ul, .signin{
+    margin-right: 10px;
+    font-family: 'Goldman', cursive;
+    font-size: medium;
+}
+.signin{
+    float: right;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.7s all;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+  }
+.whoweare{
+    color: #606060
+}
+.wedevelop{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;   
+}
+.imgContainer{
+    width: 450px;
+    height: 200px;
+    padding:0px;
+    position: relative;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+.division{
+    background-color: #404040;
+    height: auto;
+    border-radius: 20px;
+    padding: 10px;
+}
+.a {
+    font-weight: 800;
+}
+.introa{
+    color: white
+}
+.introa:hover{
+    color: white;
+    outline: none;
+}
+.input{
+    border-bottom: 1px solid #404040 ;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 80%;
+    outline: none;
+    margin-bottom: 30px;
+}
+.send{
+    background-color: #404040;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    height: 40px;   
+}
+.socialMedia{
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    width: 30px !important;
+}
+.socialMedia:hover{
+    background-color: white;
+    color: black;
+    
+}
+.color{
+    color: #696969;
+    margin-bottom:0px;
+    margin-right: 20px;
+}
+.color:hover{
+    color: white;
+}
